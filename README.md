@@ -12,9 +12,10 @@
    npm i @imyoon/tse -S
    ```
 
-2. 配置目标类型、原始路径、目标路径
+2. 在 tsconfig.json 配置目标类型、原始路径、目标路径
 
-   ```tsconfig.json
+   ```ts
+   // tsconfig.json
    {
        ···
        "extendionOptions":{
